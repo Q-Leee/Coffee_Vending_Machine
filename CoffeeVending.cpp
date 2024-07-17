@@ -2,8 +2,8 @@
 
 void CoffeeVending::show()
 {
-	cout << left;
-	cout << setw(10) << "Coffee";
+	cout << left;   //allign to the left (manipulator)
+	cout << setw(10) << "Coffee";   //sets the width to 10 characters (manipulator)
 	for (int i = 0; i < coffee; i++)
 	{
 		cout << "*";
